@@ -1,0 +1,377 @@
+[
+  {
+    "key": "mario",
+    "name": "Mario",
+    "order": 1
+  },
+  {
+    "key": "donkey-kong",
+    "name": "Donkey Kong",
+    "order": 2
+  },
+  {
+    "key": "link",
+    "name": "Link",
+    "order": 3
+  },
+  {
+    "key": "samus",
+    "name": "Samus",
+    "order": 4
+  },
+  {
+    "key": "dark-samus",
+    "name": "Dark Samus",
+    "order": 5
+  },
+  {
+    "key": "yoshi",
+    "name": "Yoshi",
+    "order": 6
+  },
+  {
+    "key": "kirby",
+    "name": "Kirby",
+    "order": 7
+  },
+  {
+    "key": "fox",
+    "name": "Fox",
+    "order": 8
+  },
+  {
+    "key": "pikachu",
+    "name": "Pikachu",
+    "order": 9
+  },
+  {
+    "key": "luigi",
+    "name": "Luigi",
+    "order": 10
+  },
+  {
+    "key": "ness",
+    "name": "Ness",
+    "order": 11
+  },
+  {
+    "key": "captain-falcon",
+    "name": "Captain Falcon",
+    "order": 12
+  },
+  {
+    "key": "jigglypuff",
+    "name": "Jigglypuff",
+    "order": 13
+  },
+  {
+    "key": "peach",
+    "name": "Peach",
+    "order": 14
+  },
+  {
+    "key": "daisy",
+    "name": "Daisy",
+    "order": 15
+  },
+  {
+    "key": "bowser",
+    "name": "Bowser",
+    "order": 16
+  },
+  {
+    "key": "ice-climbers",
+    "name": "Ice Climbers",
+    "order": 17
+  },
+  {
+    "key": "sheik",
+    "name": "Sheik",
+    "order": 18
+  },
+  {
+    "key": "zelda",
+    "name": "Zelda",
+    "order": 19
+  },
+  {
+    "key": "dr-mario",
+    "name": "Dr.Mario",
+    "order": 20
+  },
+  {
+    "key": "pichu",
+    "name": "Pichu",
+    "order": 21
+  },
+  {
+    "key": "falco",
+    "name": "Falco",
+    "order": 22
+  },
+  {
+    "key": "marth",
+    "name": "Marth",
+    "order": 23
+  },
+  {
+    "key": "lucina",
+    "name": "Lucina",
+    "order": 24
+  },
+  {
+    "key": "young-link",
+    "name": "Young Link",
+    "order": 25
+  },
+  {
+    "key": "ganondorf",
+    "name": "Ganondorf",
+    "order": 26
+  },
+  {
+    "key": "mewtwo",
+    "name": "Mewtwo",
+    "order": 27
+  },
+  {
+    "key": "roy",
+    "name": "Roy",
+    "order": 28
+  },
+  {
+    "key": "chrom",
+    "name": "Chrom",
+    "order": 29
+  },
+  {
+    "key": "mr-game-and-watch",
+    "name": "Mr.Game & Watch",
+    "order": 30
+  },
+  {
+    "key": "meta-knight",
+    "name": "Meta Knight",
+    "order": 31
+  },
+  {
+    "key": "pit",
+    "name": "Pit",
+    "order": 32
+  },
+  {
+    "key": "dark-pit",
+    "name": "Dark Pit",
+    "order": 33
+  },
+  {
+    "key": "zero-suit-samus",
+    "name": "Zero Suit Samus",
+    "order": 34
+  },
+  {
+    "key": "wario",
+    "name": "Wario",
+    "order": 35
+  },
+  {
+    "key": "snake",
+    "name": "Snake",
+    "order": 36
+  },
+  {
+    "key": "ike",
+    "name": "Ike",
+    "order": 37
+  },
+  {
+    "key": "pokemon-trainer",
+    "name": "Pokemon Trainer",
+    "order": 38
+  },
+  {
+    "key": "diddy-kong",
+    "name": "Diddy Kong",
+    "order": 39
+  },
+  {
+    "key": "lucas",
+    "name": "Lucas",
+    "order": 40
+  },
+  {
+    "key": "sonic",
+    "name": "Sonic",
+    "order": 41
+  },
+  {
+    "key": "king-dedede",
+    "name": "King Dedede",
+    "order": 42
+  },
+  {
+    "key": "olimar",
+    "name": "Olimar",
+    "order": 43
+  },
+  {
+    "key": "lucario",
+    "name": "Lucario",
+    "order": 44
+  },
+  {
+    "key": "rob",
+    "name": "R.O.B.",
+    "order": 45
+  },
+  {
+    "key": "toon-link",
+    "name": "Toon Link",
+    "order": 46
+  },
+  {
+    "key": "wolf",
+    "name": "Wolf",
+    "order": 47
+  },
+  {
+    "key": "villager",
+    "name": "Villager",
+    "order": 48
+  },
+  {
+    "key": "mega-man",
+    "name": "Mega Man",
+    "order": 49
+  },
+  {
+    "key": "wii-fit-trainer",
+    "name": "Wii Fit Trainer",
+    "order": 50
+  },
+  {
+    "key": "rosalina-and-luma",
+    "name": "Rosalina & Luma",
+    "order": 51
+  },
+  {
+    "key": "little-mac",
+    "name": "Little Mac",
+    "order": 52
+  },
+  {
+    "key": "greninja",
+    "name": "Greninja",
+    "order": 53
+  },
+  {
+    "key": "palutena",
+    "name": "Palutena",
+    "order": 54
+  },
+  {
+    "key": "pac-man",
+    "name": "Pac-Man",
+    "order": 55
+  },
+  {
+    "key": "robin",
+    "name": "Robin",
+    "order": 56
+  },
+  {
+    "key": "shulk",
+    "name": "Shulk",
+    "order": 57
+  },
+  {
+    "key": "bowser-jr",
+    "name": "Bowser Jr.",
+    "order": 58
+  },
+  {
+    "key": "duck-hunt",
+    "name": "Duck Hunt",
+    "order": 59
+  },
+  {
+    "key": "ryu",
+    "name": "Ryu",
+    "order": 60
+  },
+  {
+    "key": "ken",
+    "name": "Ken",
+    "order": 61
+  },
+  {
+    "key": "cloud",
+    "name": "Cloud",
+    "order": 62
+  },
+  {
+    "key": "corrin",
+    "name": "Corrin",
+    "order": 63
+  },
+  {
+    "key": "bayonetta",
+    "name": "Bayonetta",
+    "order": 64
+  },
+  {
+    "key": "inkling",
+    "name": "Inkling",
+    "order": 65
+  },
+  {
+    "key": "ridley",
+    "name": "Ridley",
+    "order": 66
+  },
+  {
+    "key": "simon",
+    "name": "Simon",
+    "order": 67
+  },
+  {
+    "key": "richter",
+    "name": "Richter",
+    "order": 68
+  },
+  {
+    "key": "king-k-rool",
+    "name": "King K. Rool",
+    "order": 69
+  },
+  {
+    "key": "isabelle",
+    "name": "Isabelle",
+    "order": 70
+  },
+  {
+    "key": "incineroar",
+    "name": "Incineroar",
+    "order": 71
+  },
+  {
+    "key": "piranha-plant",
+    "name": "Piranha Plant",
+    "order": 72
+  },
+  {
+    "key": "joker",
+    "name": "Joker",
+    "order": 73
+  },
+  {
+    "key": "hero",
+    "name": "Hero",
+    "order": 74
+  },
+  {
+    "key": "banjo-and-kazooie",
+    "name": "Banjo & Kazooie",
+    "order": 75
+  }
+]
