@@ -14,12 +14,27 @@ export class AppComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.getCharacters().subscribe(characters => this.characters = characters);
-    this.dataService.getPlayers().subscribe(players => {
-      players.sort((a, b) => {
-        return a.position < b.position ? 1 : -1;
+    this.dataService.getCharacters().subscribe(characters => {
+      this.characters = characters;
+      this.dataService.getPlayers().subscribe(players => {
+        players.sort((a, b) => {
+          const currentCharacterA = characters.find(c => c.key === a.character);
+          const currentCharacterB = characters.find(c => c.key === b.character);
+          return currentCharacterA.order < currentCharacterB.order ? 1 : -1;
+        });
+        this.players = players;
       });
-      this.players = players;
     });
   }
+
+  findCurrentCharacterName(player: Player): string {
+    const playerCharacter = this.characters.find(char => char.key === player.character);
+    return playerCharacter.name;
+  }
+
+  calculateProgress(player: Player): number {
+    const playerCharacter = this.characters.find(char => char.key === player.character);
+    return (playerCharacter.order / this.characters.length) * 100;
+  }
+
 }
