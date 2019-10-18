@@ -25,8 +25,8 @@
     <tr *ngFor="let player of players; let i=index" [attr.data-index]="i">
       <td>{{ i + 1 }}</td>
       <td>{{ player.name }}</td>
-      <td>{{ characters[player.position - 1].name }}</td>
-      <td>{{ (player.position / characters.length) * 100 | number }}%</td>
+      <td>{{ findCurrentCharacterName(player) }}</td>
+      <td>{{ calculateProgress(player) | number }}%</td>
     </tr>
     </tbody>
   </table>

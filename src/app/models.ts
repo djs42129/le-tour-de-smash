@@ -7,5 +7,5 @@ class Character {
 class Player {
   id: number;
   name: string;
-  position: number;
+  character: string;
 }

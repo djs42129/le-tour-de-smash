@@ -2,31 +2,31 @@
   {
     "id": 1,
     "name": "Alex Dykstra",
-    "position": 12
+    "character": "captain-falcon"
   },
   {
     "id": 2,
     "name": "Austin Anderson",
-    "position": 8
+    "character": "fox"
   },
   {
     "id": 3,
     "name": "Long Le",
-    "position": 7
+    "character": "kirby"
   },
   {
     "id": 4,
     "name": "Brandon Smith",
-    "position": 5
+    "character": "dark-samus"
   },
   {
     "id": 5,
     "name": "Torey Mercurio",
-    "position": 2
+    "character": "donkey-kong"
   },
   {
     "id": 6,
     "name": "Bryan Healy",
-    "position": 3
+    "character": "link"
   }
 ]
