@@ -41,7 +41,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <section class=\"hero is-primary\">\n    <div class=\"hero-body\">\n      <div class=\"container\">\n        <h1 class=\"title\">\n          Welcome to Le Tour de Smash 2019\n        </h1>\n        <h2 class=\"subtitle\">\n          The Leader Board\n        </h2>\n      </div>\n    </div>\n  </section>\n\n  <table class=\"table\">\n    <thead>\n    <tr>\n      <th>Position</th>\n      <th>Name</th>\n      <th>Current Character</th>\n      <th>Progress</th>\n    </tr>\n    </thead>\n    <tbody>\n    <tr *ngFor=\"let player of players; let i=index\" [attr.data-index]=\"i\">\n      <td>{{ i + 1 }}</td>\n      <td>{{ player.name }}</td>\n      <td>{{ characters[player.position - 1].name }}</td>\n      <td>{{ (player.position / characters.length) * 100 | number }}%</td>\n    </tr>\n    </tbody>\n  </table>\n</div>\n"
+module.exports = "<div class=\"container\">\r\n  <section class=\"hero is-primary\">\r\n    <div class=\"hero-body\">\r\n      <div class=\"container\">\r\n        <h1 class=\"title\">\r\n          Le Tour de Smash 2019\r\n        </h1>\r\n        <h2 class=\"subtitle\">\r\n          The Leader Board\r\n        </h2>\r\n      </div>\r\n    </div>\r\n  </section>\r\n\r\n  <table class=\"table\">\r\n    <thead>\r\n    <tr>\r\n      <th>Position</th>\r\n      <th>Name</th>\r\n      <th>Current Character</th>\r\n      <th>Progress</th>\r\n    </tr>\r\n    </thead>\r\n    <tbody>\r\n    <tr *ngFor=\"let player of players; let i=index\" [attr.data-index]=\"i\">\r\n      <td>{{ i + 1 }}</td>\r\n      <td>{{ player.name }}</td>\r\n      <td>{{ findCurrentCharacterName(player) }}</td>\r\n      <td>{{ calculateProgress(player) | number }}%</td>\r\n    </tr>\r\n    </tbody>\r\n  </table>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -69,13 +69,25 @@ var AppComponent = /** @class */ (function () {
     }
     AppComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.dataService.getCharacters().subscribe(function (characters) { return _this.characters = characters; });
-        this.dataService.getPlayers().subscribe(function (players) {
-            players.sort(function (a, b) {
-                return a.position < b.position ? 1 : -1;
+        this.dataService.getCharacters().subscribe(function (characters) {
+            _this.characters = characters;
+            _this.dataService.getPlayers().subscribe(function (players) {
+                players.sort(function (a, b) {
+                    var currentCharacterA = characters.find(function (c) { return c.key === a.character; });
+                    var currentCharacterB = characters.find(function (c) { return c.key === b.character; });
+                    return currentCharacterA.order < currentCharacterB.order ? 1 : -1;
+                });
+                _this.players = players;
             });
-            _this.players = players;
         });
+    };
+    AppComponent.prototype.findCurrentCharacterName = function (player) {
+        var playerCharacter = this.characters.find(function (char) { return char.key === player.character; });
+        return playerCharacter.name;
+    };
+    AppComponent.prototype.calculateProgress = function (player) {
+        var playerCharacter = this.characters.find(function (char) { return char.key === player.character; });
+        return (playerCharacter.order / this.characters.length) * 100;
     };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
