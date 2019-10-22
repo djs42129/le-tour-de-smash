@@ -2,31 +2,36 @@
   {
     "id": 1,
     "name": "Alex Dykstra",
-    "character": "daisy"
+    "character": "pichu"
   },
   {
     "id": 2,
     "name": "Austin Anderson",
-    "character": "falco"
+    "character": "lucina"
   },
   {
     "id": 3,
     "name": "Long Le",
-    "character": "luigi"
+    "character": "ness"
   },
   {
     "id": 4,
     "name": "Brandon Smith",
-    "character": "zelda"
+    "character": "dr-mario"
   },
   {
     "id": 5,
     "name": "Torey Mercurio",
-    "character": "link"
+    "character": "samus"
   },
   {
     "id": 6,
     "name": "Bryan Healy",
-    "character": "pikachu"
+    "character": "ness"
+  },
+  {
+    "id": 7,
+    "name": "Danimals Snyder",
+    "character": "yoshi"
   }
 ]
