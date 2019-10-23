@@ -2,36 +2,40 @@
   {
     "id": 1,
     "name": "Alex Dykstra",
-    "character": "pichu"
+    "character": "falco"
   },
   {
     "id": 2,
     "name": "Austin Anderson",
-    "character": "lucina"
+    "character": "meta-knight"
   },
   {
     "id": 3,
     "name": "Long Le",
-    "character": "ness"
+    "character": "captain-falcon"
   },
   {
     "id": 4,
     "name": "Brandon Smith",
-    "character": "dr-mario"
+    "character": "pichu"
   },
   {
     "id": 5,
     "name": "Torey Mercurio",
-    "character": "samus"
+    "character": "dark-samus"
   },
   {
     "id": 6,
     "name": "Bryan Healy",
-    "character": "ness"
+    "character": "captain-falcon"
   },
   {
     "id": 7,
     "name": "Danimals Snyder",
     "character": "yoshi"
-  }
+  },
+  {
+    "id": 8,
+    "name", "Tony Stark",
+    "character": "donkey-kong"
 ]
