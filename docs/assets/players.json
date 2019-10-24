@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Alex Dykstra",
-    "character": "falco"
+    "character": "mr-game-and-watch"
   },
   {
     "id": 2,
@@ -17,17 +17,17 @@
   {
     "id": 4,
     "name": "Brandon Smith",
-    "character": "pichu"
+    "character": "marth"
   },
   {
     "id": 5,
     "name": "Torey Mercurio",
-    "character": "dark-samus"
+    "character": "kirby"
   },
   {
     "id": 6,
     "name": "Bryan Healy",
-    "character": "captain-falcon"
+    "character": "daisy"
   },
   {
     "id": 7,
@@ -37,6 +37,6 @@
   {
     "id": 8,
     "name": "Tony Stark",
-    "character": "donkey-kong"
+    "character": "link"
   }
 ]
