@@ -2,22 +2,22 @@
   {
     "id": 1,
     "name": "Alex Dykstra",
-    "character": "zero-suit-samus"
+    "character": "diddy-kong"
   },
   {
     "id": 2,
     "name": "Austin Anderson",
-    "character": "zero-suit-samus"
+    "character": "wario"
   },
   {
     "id": 3,
     "name": "Long Le",
-    "character": "ice-climbers"
+    "character": "zelda"
   },
   {
     "id": 4,
     "name": "Brandon Smith",
-    "character": "mr-game-and-watch"
+    "character": "zero-suit-samus"
   },
   {
     "id": 5,
@@ -27,7 +27,7 @@
   {
     "id": 6,
     "name": "Bryan Healy",
-    "character": "dr-mario"
+    "character": "pichu"
   },
   {
     "id": 7,
