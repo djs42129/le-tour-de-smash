@@ -2,22 +2,22 @@
   {
     "id": 1,
     "name": "Alex Dykstra",
-    "character": "rosalina-and-luma"
+    "character": "shulk"
   },
   {
     "id": 2,
     "name": "Austin Anderson",
-    "character": "lucario"
+    "character": "ryu"
   },
   {
     "id": 3,
     "name": "Long Le",
-    "character": "roy"
+    "character": "meta-knight"
   },
   {
     "id": 4,
     "name": "Brandon Smith",
-    "character": "lucas"
+    "character": "little-mac"
   },
   {
     "id": 5,
@@ -27,7 +27,7 @@
   {
     "id": 6,
     "name": "Bryan Healy",
-    "character": "lucina"
+    "character": "dark-pit"
   },
   {
     "id": 7,
@@ -37,6 +37,6 @@
   {
     "id": 8,
     "name": "Tony Stark",
-    "character": "link"
+    "character": "fox"
   }
 ]
